@@ -8,4 +8,13 @@ export default defineConfig({
   build: {
     outDir: "dist", // Output folder for the build
   },
+  server: {
+    port: 3000, // Optional: Specify a custom port for local development
+  },
+  resolve: {
+    alias: {
+      // Optional: Resolve aliases for imports if needed
+      "@": "/src",
+    },
+  },
 });
