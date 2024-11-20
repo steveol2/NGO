@@ -4,9 +4,9 @@ export default {
   theme: {
     extend: {
       backgroundImage: {
-        "hero-pattern": "url('./Images/Homepix.jpg')",
-        "edu-image": "url('./Images/edu.jpg')",
-        "abt-image": "url('./Images/about.jpg')",
+        "hero-pattern": "url('/Images/Homepix.jpg')", // Adjusted to use the public path
+        "edu-image": "url('/Images/edu.jpg')",
+        "abt-image": "url('/Images/about.jpg')",
       },
     },
   },

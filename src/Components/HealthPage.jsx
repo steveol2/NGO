@@ -50,7 +50,7 @@ function HealthPage() {
 
       <h6 className="font-bold p-3">A Story of Hope</h6>
       <img
-        src="./Images/amina.jpg"
+        src="/Images/amina.jpg"
         alt="Hope"
         className="w-full max-w-md mx-auto rounded-lg shadow-lg mb-4"
       />

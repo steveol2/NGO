@@ -33,7 +33,7 @@ function HomePage() {
         <div className="flex flex-col lg:flex-row justify-center gap-12 mt-8">
           <div className="flex flex-col items-center w-full sm:w-2/3 md:w-1/2 lg:w-1/3 h-auto">
             <img
-              src="./Images/health.jpg"
+              src="/Images/health.jpg"
               alt="Health"
               className="w-full h-auto rounded-lg shadow-lg mb-4"
             />
@@ -47,7 +47,7 @@ function HomePage() {
 
           <div className="flex flex-col items-center w-full sm:w-2/3 md:w-1/2 lg:w-1/3 h-auto">
             <img
-              src="./Images/edu.jpg"
+              src="/Images/edu.jpg"
               alt="Education"
               className="w-full h-auto rounded-lg shadow-lg mb-4"
             />
@@ -61,7 +61,7 @@ function HomePage() {
 
           <div className="flex flex-col items-center w-full sm:w-2/3 md:w-1/2 lg:w-1/3 h-auto">
             <img
-              src="./Images/hope.png"
+              src="/Images/hope.png"
               alt="Hope"
               className="w-full h-auto rounded-lg shadow-lg mb-4"
             />
@@ -78,7 +78,7 @@ function HomePage() {
         <div className="flex flex-col lg:flex-row items-center gap-12 mt-52 px-4">
           <div className="w-full lg:w-1/2">
             <img
-              src="./Images/about.jpg" // Make sure to update this with the correct image URL
+              src="/Images/about.jpg" // Make sure to update this with the correct image URL
               alt="About Us"
               className="w-full h-auto rounded-lg shadow-lg"
             />
