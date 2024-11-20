@@ -5,7 +5,7 @@ import HomePage from "./Components/HomePage";
 import EducationPage from "./Components/EducationPage";
 import HopePage from "./Components/HopePage";
 import HealthPage from "./Components/HealthPage";
-import WorkPage from "./Components/workPAge"; // Import the WorkPage component
+import WorkPage from "./Components/workPage";
 import OurStoryPage from "./Components/ourStoryPage";
 import "./App.css";
 import DonatePage from "./Components/DonatePage";
