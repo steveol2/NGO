@@ -1,5 +1,3 @@
-import React from "react";
-
 function OurStoryPage() {
   return (
     <div className="p-8">
@@ -109,7 +107,7 @@ function OurStoryPage() {
 
       <p className="text-lg text-gray-600 mb-4">
         With your help, we can ensure that no child goes hungry and that every
-        child has a chance at a brighter future.{" "}
+        child has a chance at a brighter future.
         <strong>
           Join us today, and be part of our story of hope and change.
         </strong>

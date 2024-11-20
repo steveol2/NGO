@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 function WorkPage() {
   return (
     <div className="p-8">
@@ -106,9 +108,12 @@ function WorkPage() {
       </p>
 
       <div className="flex justify-center mt-6">
-        <button className="bg-[#FA812F] hover:bg-[#d96e26] text-white font-bold py-3 px-6 rounded shadow-lg transition duration-300">
+        <Link
+          to="/donate"
+          className="bg-[#FA812F] hover:bg-[#d96e26] text-white font-bold py-3 px-6 rounded shadow-lg transition duration-300"
+        >
           Donate Now
-        </button>
+        </Link>
       </div>
     </div>
   );
