@@ -1,27 +1,31 @@
 import { Link } from "react-router-dom";
 
-function HopePage() {
+function EducationPage() {
   return (
     <div className="p-8">
       <h1 className="text-3xl font-bold text-center text-[#FA812F] mb-4">
-        Inspiring Hope for a Brighter Future
+        Empowering Education for Every Child
       </h1>
       <p className="text-lg text-gray-600 mb-4">
-        Across Africa, many children face unimaginable hardships, from poverty
-        and hunger to the lack of basic healthcare and education. These
-        challenges can often seem insurmountable. However, at Kat Perry
-        Foundation, we believe that every child deserves the chance to dream, to
-        hope, and to build a brighter future.
+        In many parts of Africa, countless children are deprived of basic
+        education due to poverty, conflict, and lack of resources. This deprives
+        them of the chance to learn, grow, and unlock their potential.
       </p>
       <p className="text-lg text-gray-600 mb-4">
-        Through our programs, we are not just offering immediate aid, but
-        nurturing long-term hope by empowering children with the tools they need
-        to overcome their circumstances—be it through access to education,
-        healthcare, or life skills that can help them thrive.
+        At Kat Perry Foundation, we believe that education is the most powerful
+        tool to break the cycle of poverty. We are dedicated to providing
+        underprivileged children with access to quality education, school
+        supplies, and supportive learning environments.
       </p>
       <p className="text-lg text-gray-600 mb-4">
-        Your support helps create a future filled with opportunities, where
-        children are no longer defined by their hardships, but by their dreams.
+        By equipping children with knowledge and skills, we empower them to
+        dream bigger, achieve more, and contribute to their communities.
+        Together, we can create a future where no child is left behind.
+      </p>
+      <p className="text-lg text-gray-600 mb-4">
+        Your contribution helps us build schools, train teachers, and provide
+        the resources needed to shape a generation of empowered, educated young
+        minds.
       </p>
 
       {/* CTA Donate Button */}
@@ -37,4 +41,4 @@ function HopePage() {
   );
 }
 
-export default HopePage;
+export default EducationPage;

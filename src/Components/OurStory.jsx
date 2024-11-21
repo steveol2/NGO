@@ -1,4 +1,4 @@
-function OurStoryPage() {
+function OurStory() {
   return (
     <div className="p-8">
       <h1 className="text-3xl font-bold text-center text-[#FA812F] mb-4">
@@ -116,4 +116,4 @@ function OurStoryPage() {
   );
 }
 
-export default OurStoryPage;
+export default OurStory;
