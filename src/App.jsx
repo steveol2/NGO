@@ -5,7 +5,7 @@ import HomePage from "./Components/HomePage";
 import EducationPage from "./Components/EducationPage";
 import HopePage from "./Components/HopePage";
 import HealthPage from "./Components/HealthPage";
-import WorkPage from "./Components/WorkPage";
+import WorkPage from "./Components/WorkPage.jsx";
 import OurStory from "./Components/OurStory";
 import "./App.css";
 import DonatePage from "./Components/DonatePage";
@@ -21,10 +21,7 @@ function App() {
         {/* Adjust pt-16 based on header height */}
         <Routes>
           <Route path="/" element={<HomePage />} />
-          <Route
-            path="/ourWork"
-            element={<WorkPage />} // Add the new WorkPage route here
-          />
+          <Route path="/ourWork" element={<WorkPage />} />
           <Route path="/ourStory" element={<OurStory />} />
           <Route path="/donate" element={<DonatePage />} />
           <Route path="/health" element={<HealthPage />} />
