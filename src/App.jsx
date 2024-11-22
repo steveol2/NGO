@@ -5,7 +5,7 @@ import HomePage from "./Components/HomePage.jsx";
 import EducationPage from "./Components/EducationPage.jsx";
 import HopePage from "./Components/HopePage.jsx";
 import HealthPage from "./Components/HealthPage.jsx";
-import WorkPage from "./Components/WorkPage.jsx";
+// import WorkPage from "./Components/WorkPage.jsx";
 import OurStory from "./Components/OurStory.jsx";
 import "./App.css";
 import DonatePage from "./Components/DonatePage.jsx";
@@ -21,7 +21,7 @@ function App() {
         {/* Adjust pt-16 based on header height */}
         <Routes>
           <Route path="/" element={<HomePage />} />
-          <Route path="/ourWork" element={<WorkPage />} />
+          {/* <Route path="/ourWork" element={<WorkPage />} /> */}
           <Route path="/ourStory" element={<OurStory />} />
           <Route path="/donate" element={<DonatePage />} />
           <Route path="/health" element={<HealthPage />} />

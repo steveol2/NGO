@@ -22,7 +22,7 @@ const Navbar = () => {
 
   const desktopMenuItems = [
     { name: "Home", path: "/" },
-    { name: "Our Work", path: "/ourWork" },
+    // { name: "Our Work", path: "/ourWork" },
     { name: "Our Story", path: "/ourStory" },
   ];
 
@@ -34,11 +34,11 @@ const Navbar = () => {
       path: "/",
       icon: <AiFillHome size={20} className="mr-2" />,
     },
-    {
-      name: "Our Work",
-      path: "/ourWork",
-      icon: <MdWork size={20} className="mr-2" />,
-    },
+    // {
+    //   name: "Our Work",
+    //   path: "/ourWork",
+    //   icon: <MdWork size={20} className="mr-2" />,
+    // },
     {
       name: "Our Story",
       path: "/ourStory",
