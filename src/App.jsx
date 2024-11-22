@@ -1,14 +1,14 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Navbar from "./Components/Navbar";
-import HomePage from "./Components/HomePage";
-import EducationPage from "./Components/EducationPage";
-import HopePage from "./Components/HopePage";
-import HealthPage from "./Components/HealthPage";
+import Navbar from "./Components/Navbar.jsx";
+import HomePage from "./Components/HomePage.jsx";
+import EducationPage from "./Components/EducationPage.jsx";
+import HopePage from "./Components/HopePage.jsx";
+import HealthPage from "./Components/HealthPage.jsx";
 import WorkPage from "./Components/WorkPage.jsx";
-import OurStory from "./Components/OurStory";
+import OurStory from "./Components/OurStory.jsx";
 import "./App.css";
-import DonatePage from "./Components/DonatePage";
+import DonatePage from "./Components/DonatePage.jsx";
 
 function App() {
   return (
