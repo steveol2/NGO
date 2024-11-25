@@ -75,8 +75,8 @@ function HomePage() {
         </div>
 
         {/* About Us Section */}
-        <div className="flex flex-col lg:flex-row items-center gap-12 mt-52 px-4">
-          <div className="w-full lg:w-1/2">
+        <div className="flex flex-col lg:flex-row items-center gap-12 mt-14 px-4">
+          <div className="w-full lg:w-1/2 mt-12">
             <img
               src="/Images/about.jpg" // Make sure to update this with the correct image URL
               alt="About Us"
@@ -120,7 +120,7 @@ function HomePage() {
                   contact@ngo.org
                 </a>
                 <br />
-                Phone: +1 (628) 281-8314
+                Phone: +1 (627) 081-8204
               </p>
             </div>
 
