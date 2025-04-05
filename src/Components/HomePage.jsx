@@ -86,8 +86,8 @@ function HomePage() {
           <div className="w-full lg:w-1/2 text-left">
             <h1 className="text-3xl font-bold text-[#FA812F] mb-4">About Us</h1>
             <p className="text-lg text-[#666] mb-6">
-              At Kat Perry Foundation, our mission is to provide children in
-              need with life-changing support, from emergency food assistance to
+              At Marley Foundation, our mission is to provide children in need
+              with life-changing support, from emergency food assistance to
               education and healthcare. We believe every child deserves a chance
               to grow, learn, and thrive. Join us in making a lasting impact on
               their future.
@@ -120,7 +120,7 @@ function HomePage() {
                   contact@ngo.org
                 </a>
                 <br />
-                Phone: +1 (627) 081-8204
+                Phone: +1 (627) 091-824
               </p>
             </div>
 

@@ -54,7 +54,7 @@ const Navbar = () => {
   return (
     <motion.div className="flex justify-between items-center max-w-[1200px] px-4 mx-auto h-16 text-black">
       <Link to="/" className="font-bold text-2xl font-header">
-        Kat Perry Foundation
+        Marley Foundation
       </Link>
       <div className="flex items-center space-x-4 md:space-x-10 font-header">
         {/* Desktop Menu */}
@@ -91,7 +91,7 @@ const Navbar = () => {
           nav ? "translate-x-0" : "-translate-x-full"
         }`}
       >
-        <h1 className="text-2xl font-bold p-6">Kat Perry Foundation</h1>
+        <h1 className="text-2xl font-bold p-6">Marley Foundation</h1>
         <ul className="p-4">
           {mobileMenuItems.map((item, index) => (
             <motion.li

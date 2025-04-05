@@ -9,9 +9,9 @@ function HopePage() {
       <p className="text-lg text-gray-600 mb-4">
         Across Africa, many children face unimaginable hardships, from poverty
         and hunger to the lack of basic healthcare and education. These
-        challenges can often seem insurmountable. However, at Kat Perry
-        Foundation, we believe that every child deserves the chance to dream, to
-        hope, and to build a brighter future.
+        challenges can often seem insurmountable. However, at Marley Foundation,
+        we believe that every child deserves the chance to dream, to hope, and
+        to build a brighter future.
       </p>
       <p className="text-lg text-gray-600 mb-4">
         Through our programs, we are not just offering immediate aid, but
